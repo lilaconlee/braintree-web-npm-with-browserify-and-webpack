@@ -1,0 +1,25 @@
+{
+  "name": "braintree-web-with-npm-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run server",
+    "server": "http-server -p4567 .",
+    "build": "npm run browserify && npm run webpack",
+    "browserify": "browserify src/index.js -o js/browserify.js",
+    "webpack": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "braintree-web": "3.8.0",
+    "browserify": "^13.3.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
