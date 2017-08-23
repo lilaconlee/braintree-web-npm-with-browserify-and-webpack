@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "braintree-web": "3.8.0",
+    "braintree-web-drop-in": "1.6.1",
     "browserify": "^13.3.0",
     "webpack": "^1.14.0"
   },
